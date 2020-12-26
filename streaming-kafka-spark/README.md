@@ -16,11 +16,19 @@
 2a. From consumer console 
 
 
+<<<<<<< HEAD
 ![Consumer-stream](media/consumer.gif)
 
 2b. Using a python consumer running `python consumer_server.py`
 
 ![Consumer-server](media/consumer.png)
+=======
+![Consumer-stream](consumer.gif)
+
+2b. Using a python consumer running `python consumer_server.py`
+
+![Consumer-server](consumer.png)
+>>>>>>> 3ba1c08003f9a9a602a68fd1a2053ce581cf9da3
 
 
 3. Data is consumed and processed in streaming fashion in Spark. An aggregate is performed on the stream. This processing can be started by running `data_stream.py` by executing the following command 
@@ -29,6 +37,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ```
 
 The progress reporter:
+<<<<<<< HEAD
 ![Progress Reporter](media/progress.png)
 
 The stream dumped to console:
@@ -36,6 +45,15 @@ The stream dumped to console:
 
 The Spark UI:
 ![Spark UI](media/sparkui.png)
+=======
+![Progress Reporter](progress.png)
+
+The stream dumped to console:
+![Aggregation Stream](stream.gif)
+
+The Spark UI:
+![Spark UI](sparkui.png)
+>>>>>>> 3ba1c08003f9a9a602a68fd1a2053ce581cf9da3
 
 
 ### Spark Parameters
