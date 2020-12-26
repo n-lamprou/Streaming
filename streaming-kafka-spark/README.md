@@ -29,7 +29,6 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --maste
 ```
 
 The progress reporter:
-<<<<<<< HEAD
 ![Progress Reporter](media/progress.png)
 
 The stream dumped to console:
