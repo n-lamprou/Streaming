@@ -35,7 +35,8 @@ The stream dumped to console:
 ![Aggregation Stream](media/stream.gif)
 
 The Spark UI:
-![Spark UI](media/sparkui.png)
+![Spark UI](media/sparkui-jobs.png)
+![Spark UI2](media/sparkui.png)
 
 
 ### Spark Parameters
